@@ -41,3 +41,17 @@
 15. Basic Table
 16. Basic Form
 17. Deploy
+
+## Intermediate HTML
+
+- Meta tag & SEO
+- Adding font-awesome icons and google font
+- advanced table
+- advanced form
+- form data send to your email
+- multimedia
+- html5 elements
+- deploy
+
+
+
