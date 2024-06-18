@@ -53,5 +53,39 @@
 - [html5 elements](https://www.tutorialrepublic.com/html-reference/html5-tags.php)
 - deploy
 
+## Advanced HTML
+- More Advanced Form
+- Web accessibility, how to check web accessibility?
+  
+   - inspect -> lighthouse -> accessibility (this is manually checking system from browser )
+   - axe Devtools for accessibility (this is a browser extensions)
+         
+- HTML5 API
+- HTML Templates and Web Components
+- Sources for Symbols,Icons, emojis, images and colors
+  > For emojis
+   - [symbl.cc](https://symbl.cc/en/)
+   - [HTML Symbols W3school](https://www.w3schools.com/html/html_symbols.asp)
+   - [copychar.cc](https://copychar.cc/)
+   - [emojipedia](https://emojipedia.org/)
+
+    
+   > For Icons
+   - Font Awesome
+   - Material Symbols & Icons - Google Fonts
+     
+   > Colors
+   -  [Colormind](http://colormind.io/)
+   -  [Color Hunt](https://colorhunt.co/)
+
+   > Free Images Download
+   -  [unsplash](https://unsplash.com/)
+   -  [Color Hunt](https://colorhunt.co/)
+
+
+- Learning Resources
+    - [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - [HTML Dog](https://www.htmldog.com/guides/html/)
+    - [w3schools](https://www.w3schools.com/html/default.asp)
 
 
