@@ -9,4 +9,5 @@
 - background properties
 - basic layout - float,positioning
 - design a card
+- css3 variables
 
