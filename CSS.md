@@ -5,8 +5,8 @@
 - css3 syntaxs,selector and combinators
 - css3 variables
 - css specificity
-- typography
-- box model
+- typography-(font,text,color,icon)
+- box model-(margin,border,padding,content)
 - background properties
 - basic layout - float,positioning
 - design a card
