@@ -2,7 +2,8 @@
 
 - introduction to css
 - ways to add css - inline,internal and external
-- selector and combinators
+- css3 syntaxs,selector and combinators
+- css3 variables
 - css specificity
 - typography
 - box model
