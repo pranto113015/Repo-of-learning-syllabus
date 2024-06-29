@@ -1,14 +1,16 @@
 ### Basic CSS
 
 - introduction to css
-- ways to add css - inline,internal and external
+- ways to add css - inline, internal and external
 - css3 syntaxs,selector and combinators
 - css3 variables
 - css specificity
-- typography-(font,text,color,icon)
-- box model-(margin,border,padding,content)
-- background properties
-- basic layout - float,positioning
+- typography-(font, text, color, icon)
+- box model-(margin, border,padding, content)
 - design a card
-- css3 variables
 
+
+
+### Intermediate css
+- background properties
+- basic layout - (float, positioning, flex, grid)
