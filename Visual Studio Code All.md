@@ -3,6 +3,22 @@
 - [Download](https://code.visualstudio.com/download) and install the VSCode
 - [VS Keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
+# VSCode Importent Extension
+
+- Live Server
+- Live Preview
+- Material Icon Theme
+- Image preview
+- Auto Rename Tag
+- axe Accessibility Linter
+- CodeSnap
+- HTML End Tag Labels
+- IntelliSense for CSS class names in HTML
+- vscode-pdf
+- HTML to CSS autocompletion
+   
+
+
 ## 1. Create and open a project in VSCode
 
 ## 2. Sidebar
@@ -71,3 +87,19 @@
 ## 9. VSCode theme
 
 - Themes extension: Dark vision < Fleety < Andromeda < Framer dark < Cyberpunk < pro hacker theme < Github theme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
