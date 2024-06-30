@@ -3,7 +3,7 @@
 - [Download](https://code.visualstudio.com/download) and install the VSCode
 - [VS Keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
-# VSCode Importent Extension
+# VSCode Importent Extension Basic
 
 - Live Server
 - Live Preview
@@ -16,7 +16,15 @@
 - IntelliSense for CSS class names in HTML
 - vscode-pdf
 - HTML to CSS autocompletion
-   
+- BEM Helper
+- CSS Flexbox Cheatsheet
+- CSS Navigation
+  
+# VSCode Importent Extension for JavaScript
+- JavaScript (ES6) code snippets
+- 
+
+
 
 
 ## 1. Create and open a project in VSCode
