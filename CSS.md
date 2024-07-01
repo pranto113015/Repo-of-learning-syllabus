@@ -13,4 +13,34 @@
 
 ### Intermediate css
 - background properties
-- basic layout - (float, positioning, flex, grid)
+- basic layout - display property - inline, block, inline-block, float, positioning, flex
+- how to make a circle
+- responsiveness
+
+
+### Advanced css
+- grid layout
+- transition
+- animation
+- BEM architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
