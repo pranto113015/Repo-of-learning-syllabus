@@ -24,7 +24,10 @@
 - JavaScript (ES6) code snippets
 - Dom code Snippets
 - Error Lens
-- 
+- Eslint
+- npm intellisense
+- Import Cost
+  
 
 
 
