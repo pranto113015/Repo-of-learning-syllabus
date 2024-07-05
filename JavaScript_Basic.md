@@ -1,1 +1,89 @@
+### JavaScript Basic to Advance Topics List
+
+- output in js
+```js
+    <script>
+        alert("Pranto Kuamr");
+        document.write("My Name Is Pranto Kumar");
+        console.log("I'm Pranto Kumar") //only show console mode of browser
+    </script>
+```
+
+- Keyword, Data Type and comment
+  - String
+  - Number
+  - Boolean //True & False
+    
+- declare variables
+```js
+    <script>
+        var name = "Pranto Kuamr";
+        document.write(name);
+    </script>
+```
+
+- number method | toFixed | toPrecision
+```js
+console.log(typeof(Number("23")));
+console.log(Number(true));
+```
+
+```js
+var num = 4.56878;
+console.log(num.toFixed(3));
+```
+```js
+var num = 4.56878;
+console.log(num.toPrecision(4));
+```
+
+- add or concatenate strings
+```js
+document.write("Pranto" + " Kumar");
+```
+  
+- Library functions for string
+  ```js
+  var text = "Pranto";
+  document.write("Length of the word is : " + text.length);
+  document.write(text.charAt(2)); //identify location wise character
+  document.write(text.toUpperCase());
+  document.write(text.toLowerCase());
+  document.write(text.slice(2,4));
+  ```
+  
+  ```js
+  var text = prompt("Enter Your Name : "); //take user input
+  document.write("Number of character :" + text.length);
+  ```
+
+  
+- Arithmetic and assignment operator
+  - Arithmatic(+,-,*,/,%) otther (**, ++, --)
+  - Assignment (=,+=,-=,*=,/=,%=,**=)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
