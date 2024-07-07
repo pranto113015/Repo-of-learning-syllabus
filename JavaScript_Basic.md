@@ -84,6 +84,8 @@ document.write("Pranto" + " Kumar");
 - Relational and Logical Operator
    - Relational operator ( >, >=, <, <=, ==, ===, !=, !==)
    - logical operator (&&, ||, !)
+- if, else if, else
+- 
  
 
 
