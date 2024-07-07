@@ -94,6 +94,11 @@ document.write("Pranto" + " Kumar");
 - how to use while loop in javascript
 - how to use do-while loop in javascript
 - how to use break and continue
+- Ternary operator
+- Traditional function
+- IIFEs and function expression
+- how to create and use array
+- 
  
 
 
