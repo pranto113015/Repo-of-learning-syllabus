@@ -62,6 +62,22 @@ document.write("Pranto" + " Kumar");
   - Arithmatic(+,-,*,/,%) otther (**, ++, --)
   - Assignment (=,+=,-=,*=,/=,%=,**=)
 
+- Make your own calculator
+  
+   - short program
+  ```js
+        var num1 = prompt("Enter The First Number: "); //user input function
+        var num2 = prompt("Enter The Second Number: ");
+
+        num1 = parseInt(num1, 10); //convert string to integer function
+        num2 = parseInt(num2, 10);
+
+        var sum = num1 + num2; // concatenate strings
+        document.write("Sum is : " + sum + "<br/>"); //show output function
+
+        var sub = num1 - num2;
+        document.write("Sub is : " + sub);
+  ```
 
 
 
