@@ -84,8 +84,16 @@ document.write("Pranto" + " Kumar");
 - Relational and Logical Operator
    - Relational operator ( >, >=, <, <=, ==, ===, !=, !==)
    - logical operator (&&, ||, !)
+     
 - if, else if, else
-- 
+- Letter Grade Program (just for practise)
+- Programs using logical operators
+- Switch
+- how to use for loop in javascript (part-1)
+- how to use for loop in javascript (part-2)
+- how to use while loop in javascript
+- how to use do-while loop in javascript
+- how to use break and continue
  
 
 
