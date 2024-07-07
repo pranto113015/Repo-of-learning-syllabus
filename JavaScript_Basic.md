@@ -82,7 +82,10 @@ document.write("Pranto" + " Kumar");
 - Area of various shapes
 - how to make temperature converter
 - Relational and Logical Operator
-- 
+   - Relational operator ( >, >=, <, <=, ==, ===, !=, !==)
+   - logical operator (&&, ||, !)
+ 
+
 
 
 
