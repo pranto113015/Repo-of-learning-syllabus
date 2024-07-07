@@ -79,6 +79,10 @@ document.write("Pranto" + " Kumar");
         document.write("Sub is : " + sub);
   ```
 
+- Area of various shapes
+- how to make temperature converter
+- Relational and Logical Operator
+- 
 
 
 
