@@ -13,13 +13,13 @@
 
 ### Intermediate css
 - background properties
-- basic layout - display property - inline, block, inline-block, float, positioning, flex
+- basic layout - display property - inline, block, inline-block, float, positioning, flex-work only row or work only column ( Practise flex Source : https://flexboxfroggy.com/)
 - how to make a circle
 - responsiveness
 
 
 ### Advanced css
-- grid layout
+- grid layout - work both row & column (Practise Grid layout Source : https://cssgridgarden.com/)
 - transition
 - animation
 - BEM architecture
