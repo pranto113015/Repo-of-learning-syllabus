@@ -98,7 +98,7 @@ document.write("Pranto" + " Kumar");
 - Traditional function
 - IIFEs and function expression
 - how to create and use array
-- 
+- How to loop an Array
  
 
 
