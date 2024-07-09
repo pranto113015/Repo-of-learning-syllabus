@@ -100,7 +100,9 @@ document.write("Pranto" + " Kumar");
 - how to create and use array
 - How to loop an Array
 - Array library methods -(push,pop,concat,shift,unshift,splice,slice,sort,reverse)
-- one dimensional array
+- one dimensional array | Task 8
+- two dimensional array | Task 9
+- 
  
 
 
