@@ -99,7 +99,8 @@ document.write("Pranto" + " Kumar");
 - IIFEs and function expression
 - how to create and use array
 - How to loop an Array
-- Array library methods
+- Array library methods -(push,pop,concat,shift,unshift,splice,slice,sort,reverse)
+- 
  
 
 
