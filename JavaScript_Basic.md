@@ -102,6 +102,8 @@ document.write("Pranto" + " Kumar");
 - Array library methods -(push,pop,concat,shift,unshift,splice,slice,sort,reverse)
 - one dimensional array | Task 8 (Important)
 - two dimensional array | Task 9 (Important)
+- how to create and use object
+- Math Object
 - 
   
  
