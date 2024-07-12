@@ -141,6 +141,7 @@ document.write("Pranto" + " Kumar");
 - query selector
 - Event Handler to onclick event
 - Find, create, add, remove html elements
+- DOM traversing & manipulating
  
 
 
