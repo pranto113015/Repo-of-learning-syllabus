@@ -139,6 +139,7 @@ document.write("Pranto" + " Kumar");
    document.getElementById("heading1").innerHTML = "Hello";
    ```
 - query selector
+- Event Handler to onclick event
 - 
  
 
