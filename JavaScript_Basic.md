@@ -134,6 +134,11 @@ document.write("Pranto" + " Kumar");
     var currentMilliSeconds = date.getMilliseconds();
     console.log(currentMilliSeconds);
     ```
+- DOM | select html elements
+   ```js
+   document.getElementById("heading1").innerHTML = "Hello";
+   ```
+- query selector
 - 
  
 
