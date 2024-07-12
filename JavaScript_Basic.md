@@ -105,6 +105,7 @@ document.write("Pranto" + " Kumar");
 - how to create and use object
 - Math Object
 - Guessing Game
+- Date object and date methods
 - 
   
  
