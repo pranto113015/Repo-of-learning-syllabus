@@ -142,6 +142,11 @@ document.write("Pranto" + " Kumar");
 - Event Handler to onclick event
 - Find, create, add, remove html elements
 - DOM traversing & manipulating
+- image slider
+- Changing CSS style dynamically
+- Event Listener
+- Event Listeners with multiple elements
+- how to play audio in javascript
  
 
 
