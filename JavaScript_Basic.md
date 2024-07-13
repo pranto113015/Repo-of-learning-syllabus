@@ -151,6 +151,59 @@ document.write("Pranto" + " Kumar");
 - Keypress listener
 - DOM Event | Event Object | onchange event
 - DOM Event | Event Object | onsubmit event
+    ```html
+     <form action="">
+        <div>
+            <label for="name">Name :
+                <input type="text" id="name" name="name" required autofocus>
+            </label>
+        </div>
+
+        <div>
+            <label for="email">Email :
+                <input type="email" id="email" name="email" size="30">
+            </label>
+        </div>
+
+        <div>
+            <label for="password">Password :
+                <input type="password" id="password" name="password" required minlength="4" maxlength="8">
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" value="Signup">
+        </div>
+    </form>
+    ```
+
+    ```css
+    div {
+    margin-bottom: 1rem;
+    }
+    ```
+    ```js
+    const form = document.querySelector("form");
+    const name = form.querySelector("div #name");
+    const email = form.querySelector("div #email");
+    const password = form.querySelector("div #password")
+
+    form.addEventListener('submit', formHandler);
+
+    function formHandler(e){
+    e.preventDefault();
+
+   const userInfo = {
+    name : name.value,
+    email : email.value,
+    password : password.value,
+   };
+   console.log(userInfo);
+   name.value ="";
+   email.value ="";
+   password.value ="";
+   }
+    ```
 - DOM Event | Event Object | media events
 - 
  
