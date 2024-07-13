@@ -148,6 +148,9 @@ document.write("Pranto" + " Kumar");
 - Event Listeners with multiple elements
 - how to play audio in javascript
 - How to add and remove animation
+- Keypress listener
+- DOM Event | Event Object | onchange event
+- 
  
 
 
