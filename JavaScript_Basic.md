@@ -147,6 +147,7 @@ document.write("Pranto" + " Kumar");
 - Event Listener
 - Event Listeners with multiple elements
 - how to play audio in javascript
+- How to add and remove animation
  
 
 
