@@ -208,6 +208,7 @@ document.write("Pranto" + " Kumar");
 - DOM Event | Event Object | scroll, resize, toggle
 - DOM Event | MouseEvent
 - DOM Event | KeyboardEvent
+- DOM Event | FocusEvent
 - 
  
 
