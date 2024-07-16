@@ -209,6 +209,7 @@ document.write("Pranto" + " Kumar");
 - DOM Event | MouseEvent
 - DOM Event | KeyboardEvent
 - DOM Event | FocusEvent
+- DOM Event | ClipboardEvent
 - 
  
 
