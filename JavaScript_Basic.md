@@ -210,7 +210,7 @@ document.write("Pranto" + " Kumar");
 - DOM Event | KeyboardEvent
 - DOM Event | FocusEvent
 - DOM Event | ClipboardEvent
-- 
+- DOM Event | DragEvent
  
 
 
