@@ -211,6 +211,10 @@ document.write("Pranto" + " Kumar");
 - DOM Event | FocusEvent
 - DOM Event | ClipboardEvent
 - DOM Event | DragEvent
+- Browser Object Model | location object
+- 
+
+
  
 
 
