@@ -211,7 +211,11 @@ document.write("Pranto" + " Kumar");
 - DOM Event | FocusEvent
 - DOM Event | ClipboardEvent
 - DOM Event | DragEvent
-- Browser Object Model | location object
+- Browser Object Model (BOM) | location object
+    - href
+    - protocol
+    - hostname
+    - pathname
 - 
 
 
