@@ -216,6 +216,10 @@ document.write("Pranto" + " Kumar");
     - protocol
     - hostname
     - pathname
+- Browser Object Model | Popup boxes
+    - alert
+    - confirm
+    - prompt
 - 
 
 
