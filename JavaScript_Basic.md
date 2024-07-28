@@ -220,6 +220,11 @@ document.write("Pranto" + " Kumar");
     - alert
     - confirm
     - prompt
+- Browser Object Model | Timing events
+    - setTimeOut()
+    - setInterval()
+- Browser Object Model | Create a Clock
+- best practices for javascript coding
 - 
 
 
