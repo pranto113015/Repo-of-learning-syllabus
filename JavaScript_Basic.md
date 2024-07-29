@@ -225,6 +225,7 @@ document.write("Pranto" + " Kumar");
     - setInterval()
 - Browser Object Model | Create a Clock
 - best practices for javascript coding
+- how to handle error in JavaScript (part-1)
 - 
 
 
