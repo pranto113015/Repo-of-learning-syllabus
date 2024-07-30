@@ -1,5 +1,7 @@
 ### JavaScript Basic to Advance Topics List
 
+> JavaScript version ES5 :
+
 - output in js
 ```js
     <script>
@@ -228,6 +230,15 @@ document.write("Pranto" + " Kumar");
 - how to handle error in JavaScript (part-1)
 - how to handle error in JavaScript (part-2) throw
 - Canvas | drawing graphics on web page
+
+> JavaScript version ES6 :
+
+- variable and function in ES6
+- hoisting and strict mode
+- default and rest parameter
+- spread operator
+- object literals
+- for of and for in loop
 - 
 
 
