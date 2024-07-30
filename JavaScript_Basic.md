@@ -227,6 +227,7 @@ document.write("Pranto" + " Kumar");
 - best practices for javascript coding
 - how to handle error in JavaScript (part-1)
 - how to handle error in JavaScript (part-2) throw
+- Canvas | drawing graphics on web page
 - 
 
 
