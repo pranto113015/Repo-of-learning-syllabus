@@ -239,6 +239,9 @@ document.write("Pranto" + " Kumar");
 - spread operator
 - object literals
 - for of and for in loop
+- forEach | for vs forEach
+- map and filter array function
+- Arrow function (part-1)
 - 
 
 
