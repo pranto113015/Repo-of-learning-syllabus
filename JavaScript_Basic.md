@@ -242,6 +242,7 @@ document.write("Pranto" + " Kumar");
 - forEach | for vs forEach
 - map and filter array function
 - Arrow function (part-1)
+- Arrow function (part-2) | arrow with map,filter
 - 
 
 
