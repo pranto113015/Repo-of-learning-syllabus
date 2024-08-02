@@ -244,6 +244,10 @@ document.write("Pranto" + " Kumar");
 - Arrow function (part-1)
 - Arrow function (part-2) | arrow with map,filter
 - Destructuring array and objects
+- array methods | find() | findIndex()
+- String methods | startsWith, endsWith, includes
+- ES6 modules and class
+- Synchronous vs Asynchronous
 - 
 
 
