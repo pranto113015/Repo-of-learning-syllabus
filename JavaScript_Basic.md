@@ -248,6 +248,9 @@ document.write("Pranto" + " Kumar");
 - String methods | startsWith, endsWith, includes
 - ES6 modules and class
 - Synchronous vs Asynchronous
+- callback and higher order function
+- promise part-1
+- promise part-2 | promise chaining
 - 
 
 
