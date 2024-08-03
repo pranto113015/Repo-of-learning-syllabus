@@ -251,6 +251,10 @@ document.write("Pranto" + " Kumar");
 - callback and higher order function
 - promise part-1
 - promise part-2 | promise chaining
+- async await javascript
+- calling api from javascript | XMLHttpRequest
+- calling api from javascript | fetch api
+- calling api from javascript | axios api
 - 
 
 
