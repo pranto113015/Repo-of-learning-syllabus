@@ -255,6 +255,8 @@ document.write("Pranto" + " Kumar");
 - calling api from javascript | XMLHttpRequest
 - calling api from javascript | fetch api
 - calling api from javascript | axios api
+- calling api from javascript | ajax jquery
+- Web Storage API | localStorage, sessionStorage, cookie
 - 
 
 
