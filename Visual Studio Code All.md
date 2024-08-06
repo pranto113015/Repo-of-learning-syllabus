@@ -27,6 +27,15 @@
 - Eslint
 - npm intellisense
 - Import Cost
+
+
+# Extensions for API Testing 
+- REST Client
+- Thunder Client
+
+# Extesion for Typescript and Markdown
+- JSON to TS
+- Pretty TypeScript Errors
   
 
 
