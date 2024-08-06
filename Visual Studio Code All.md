@@ -45,10 +45,12 @@
 - Cyberpunk
 - pro hacker theme
 
-
-
-  
-
+# Extensios for React.js, Data Modelling and Git
+- ES7 React/Redux/GraphQL/React-Native snippets
+- ERD Editor
+- Code Spell Checker
+- DotEnv
+- Git graph
 
 
 
