@@ -36,6 +36,17 @@
 # Extesion for Typescript and Markdown
 - JSON to TS
 - Pretty TypeScript Errors
+- Markdown preview enhanced
+- markdownlint
+
+# Extesion for Themes
+- Fluent icons
+- Andromeda
+- Cyberpunk
+- pro hacker theme
+
+
+
   
 
 
