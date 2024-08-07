@@ -258,6 +258,7 @@ document.write("Pranto" + " Kumar");
 - calling api from javascript | ajax jquery
 - Web Storage API | localStorage, sessionStorage, cookie
 - mini project 1 | how to create a slideshow
+- mini project 2 | how to create dynamic cards
 
 
  
