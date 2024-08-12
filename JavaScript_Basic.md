@@ -259,6 +259,8 @@ document.write("Pranto" + " Kumar");
 - Web Storage API | localStorage, sessionStorage, cookie
 - mini project 1 | how to create a slideshow
 - mini project 2 | how to create dynamic cards
+- mini project 3 | amazing guessing game
+- mini project 4 | storing user preference
 
 
  
