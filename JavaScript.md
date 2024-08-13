@@ -16,8 +16,29 @@
   - puncuators,
   - backslash characters : \n,\t,
   - variables : var,let,const
-  - data types, string,
+  - data types :number, string, boolean, null, undefined, object, symbol
   - truthy vs falsy values,
   - operators
 - control statement
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
