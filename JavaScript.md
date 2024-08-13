@@ -18,7 +18,7 @@
   - variables : var,let,const
   - data types :number, string, boolean, null, undefined, object, symbol
   - truthy vs falsy values,
-  - operators
+  - operators : Arithmetic (+,-,*,/), Assignment, Comparision (>,<,<=,>=,==,===)
 - control statement
 - 
 
