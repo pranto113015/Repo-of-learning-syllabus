@@ -11,7 +11,13 @@
   - setting up the environment
   - output : alart(),confirm(),console
   - comment : single line comment,multiple line comments
-- Tokens : keywords, puncuators, backslash characters : \n,\t, variables,
-  data types, string,truthy vs falsy values, operators
+- Tokens
+  - keywords,
+  - puncuators,
+  - backslash characters : \n,\t,
+  - variables : var,let,const
+  - data types, string,
+  - truthy vs falsy values,
+  - operators
 - control statement
 - 
