@@ -19,8 +19,10 @@
   - data types :number, string, boolean, null, undefined, object, symbol
   - truthy vs falsy values,
   - operators : Arithmetic (+,-,*,/,%), Assignment, Comparision (>,<,<=,>=,==,===)
-- control statement
-- 
+- Control statement
+  - conditional control statement : if,else,switch
+  - loop control statement
+  - 
 
 
 
