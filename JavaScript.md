@@ -18,9 +18,9 @@
   - variables : var,let,const
   - data types :number, string, boolean, null, undefined, object, symbol
   - truthy vs falsy values,
-  - operators : Arithmetic (+,-,*,/,%), Assignment, Comparision (>,<,<=,>=,==,===), Logical,unary(+,-,++,--)
+  - operators : Arithmetic (+,-,*,/,%), Assignment, Comparision (>,<,<=,>=,==,===), Logical(&&, ||, !), unary(+,-,++,--)
 - Control statement
-  - conditional control statement : if,else,switch
+  - conditional control statement : if, else, elseif, switch
   - loop control statement
   - 
 
