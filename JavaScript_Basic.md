@@ -261,6 +261,8 @@ document.write("Pranto" + " Kumar");
 - mini project 2 | how to create dynamic cards
 - mini project 3 | amazing guessing game
 - mini project 4 | storing user preference
+- mini project 5 | A complete todo App (part-1)
+- 
 
 
  
