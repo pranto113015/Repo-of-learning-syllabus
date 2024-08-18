@@ -266,6 +266,8 @@ document.write("Pranto" + " Kumar");
 - Format your code with Prettier in a project
 - ESLint and prettier crash course | bangla tutorial
 - jsdoc crash course | bangla tutorial
+- Introduction to JSON
+- creating json data
 - 
 
 
