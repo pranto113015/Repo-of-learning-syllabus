@@ -264,6 +264,8 @@ document.write("Pranto" + " Kumar");
 - mini project 5 | A complete todo App (part-1)
 - mini project 5 | A complete todo App (part-2)
 - Format your code with Prettier in a project
+- ESLint and prettier crash course | bangla tutorial
+- jsdoc crash course | bangla tutorial
 - 
 
 
