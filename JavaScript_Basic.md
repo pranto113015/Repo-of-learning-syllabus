@@ -268,7 +268,10 @@ document.write("Pranto" + " Kumar");
 - jsdoc crash course | bangla tutorial
 - Introduction to JSON
 - creating json data
-- 
+- json data validation
+- json path | access, modify, delete and conversion
+- json schema
+
 
 
  
