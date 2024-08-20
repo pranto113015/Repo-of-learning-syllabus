@@ -15,7 +15,11 @@
   This is a very simple process to setup. Click the link and download this file and install to manual process.
 
 
-### Step to install react js 
+### Step to install react js :
+
+- **Vite** : Vite is an extremely fast and lightweight web application build tool.
+
+  
 
 
 
