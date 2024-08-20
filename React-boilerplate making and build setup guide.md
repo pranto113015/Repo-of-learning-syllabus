@@ -19,6 +19,58 @@
 
 - **Vite** : Vite is an extremely fast and lightweight web application build tool.
 
+First create vite project by vs code terminal so first go to vs code and open the terminal and write this code
+
+  ```sh
+  $ npm create vite@latest 
+  ```
+Then choose the project name or by default show the name `vite-project` then enter then select a framwork for example show 
+
+  ```sh
+  vanilla
+  vue
+  react
+  preact
+  lit
+  svelte
+  others
+  ```
+Now i choose React and click `Enter`
+
+Then select a `variant for example`
+
+  ```sh
+  Typescript
+  Typescript+swc
+  javascript
+  javascript+swc
+  ```
+Now i choose javascript and click `Enter`
+
+Now again open the terminal and write the code first enty the current folder so write code
+
+  ```sh
+  cd vite-project
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
