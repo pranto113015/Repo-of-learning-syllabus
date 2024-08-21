@@ -30,7 +30,7 @@ npm create vite@latest
 - Small bundle size: Vitejs bundles are typically much smaller than bundles created by other build tools, which can improve performance and reduce bandwidth usage.
   
 ### ESSENTIAL Vite Commands
-### REACT PROJECT
+### REACT PROJECT Structure
 - Distribution
 - Node Modules
 - Public
