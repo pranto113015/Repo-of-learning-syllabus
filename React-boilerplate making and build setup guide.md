@@ -1,4 +1,4 @@
-# React JS Installation Guide 2024
+# React Project File Installation Guide 2024
 
 ### Prerequisite to install React Js :
 
@@ -103,8 +103,31 @@ Now open `src/main.jsx` and go to top and delete unnecessary linkup  `import './
  - Now create folder `css` to store css file and delete the svg image.
  - Now again create `pages` folder inside the src folder to store different pages file and again create `component` folder inside the `src` folder to store manual created component.
 
+**Now ready by default react project file.**
+
+### Vs code extension to easily handle the react project :
+
+ - Auto Close Tag
+ - Auto Import - ES6, TS, JSX, TSX (VSCode Extension)
+ - Auto Rename Tag
+ - ESLint
+ - Npm Intellisense
+ - Path Intellisense
+ - Postman `(need sign up) Postman is a global software company that offers an API platform for developers to design, build, test, and collaborate on APIs`
+ - Prettier - Code formatter
+ - Reactjs code snippets
+ - Snipped (take screenshoots)
+ - Stylelint (identify the css error)
+ - Tailwind CSS IntelliSense (suggess tailwind css class)
+ - Thunder Client (help rest api and this is similar of postman)
+ - VSCode React Refactor
+ - vscode-icons
 
 
+
+
+
+ 
 
 
 
