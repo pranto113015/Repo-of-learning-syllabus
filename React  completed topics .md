@@ -123,8 +123,71 @@ export default Hero;
   
   export default Switch;
     ```
+- Using Ternary Operators
+    ```sh
+  const Ternary = () => {
+      let status = true;
+      return (
+          <div>
+                <h1>Using Ternary Operators</h1>
+              {
+                  status?
+                  <button>Logout Btn</button>
+                  :
+                  <button>Login Btn</button>
+              }
+          </div>
+      );
+  };
   
+  export default Ternary;
+    ```
+- Using Logical && Operators
+- Using Immediately Invoked Function
+### PASSING PROPS TO A COMPONENT
+- The term 'props' is an abbreviation for 'properties'
+- Used for passing data from one component to another.
+- Props are being passed in a uni-directional flow means one
+- way from parent to child
+- Props data is read-only, which means that data coming from
+- the parent should not be changed by child components
+### PASSING PROPS
+- Passing simple data
+- Passing with object data
+- Passing function
+  - App.jsx (Parent File)
+    
+      ```sh
+      import { Fragment } from "react";
+    import Header from "./component/Header";
+    
+    function App() {
+      const alartFunction = () => {
+        alert("Say Hello!");
+      };
+    
+      return (
+        <Fragment>
+          <Header chidBtnClick={alartFunction} />
+        </Fragment>
+      );
+    }
+    export default App;
+     ```
+  - Header.jsx (Child File)
 
+    ```sh
+    const Header = (props) => {
+      return (
+        <div>
+          <button onClick={props.chidBtnClick}>Submit</button>
+        </div>
+      );
+    };
+    export default Header;
+    ```
+
+### RESPONDING TO EVENTS
 
 
 
