@@ -119,7 +119,9 @@
 
   Open a new browser window and type 127.0.0.1:8000 in the address bar. The result look like :
   
-  ![Preview result](https://www.w3schools.com/django/screenshot_django1.png)
+  ![Preview Result of Successfully Installation is Done of Django](https://www.w3schools.com/django/screenshot_django1.png)
+
+  Now Installation is `Done`
 
    
 
