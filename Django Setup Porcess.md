@@ -47,7 +47,11 @@
   ```sh
   django-admin startproject project-name
   ```
+  Now we will create app inside the `main project folder` so follow the command  to access the right path folder :
   
+  ```sh
+  cd project-name/
+  ```
 
 
 
