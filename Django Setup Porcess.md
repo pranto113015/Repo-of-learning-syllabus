@@ -9,7 +9,8 @@
 - Gaining a thorough understanding of another coding language can make learning Python much easier.
 - Two solid programming languages to start with are HTML and CSS
 - To install Django, you must have Python installed
-  - To check if your system has Python installed, run this command in the command prompt :
+  
+   To check if your system has Python installed, run this command in the command prompt :
    
   ```sh
   python --version
@@ -18,5 +19,26 @@
   
 - Code editor for example : Vs code
 
-# Django Setup Step
+# Setting up a virtual environment Django setup steps :
+
+- To create a virtual environment for your project, open a new command prompt, navigate to the folder where you want to create your project and then enter the following command :
+
+  ```sh
+  python -m venv environment-project-name
+  ```
+  This will create a folder called `environment-project-name` if it does not already exist and set up the virtual environment. To activate the environment, run :
+
+  ```sh
+  
+  ```
+
+
+
+
+
+
+
+
+
+
 
