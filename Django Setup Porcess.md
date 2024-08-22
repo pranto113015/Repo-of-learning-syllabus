@@ -112,10 +112,13 @@
   You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
   Run 'python manage.py migrate' to apply them.
   October 27, 2022 - 13:03:14
-  Django version 4.1.2, using settings 'my_tennis_club.settings'
+  Django version 4.1.2, using settings 'project-name.settings'
   Starting development server at http://127.0.0.1:8000/
   Quit the server with CTRL-BREAK.
   ```
+
+  Open a new browser window and type 127.0.0.1:8000 in the address bar. The result look like :
+  [!](https://www.w3schools.com/django/screenshot_django1.png)
 
    
 
