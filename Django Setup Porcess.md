@@ -37,6 +37,18 @@
   
   In the command prompt, ensure your virtual environment is active, and execute the following command :
 
+  ```sh
+  pip install django
+  ```
+  This will download and install the latest Django release.
+
+  Now we will create the main project folder `project-name` where we can easily all coding work so follow the command :
+
+  ```sh
+  django-admin startproject project-name
+  ```
+  
+
 
 
 
