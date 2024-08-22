@@ -92,11 +92,18 @@
 		'django.contrib.staticfiles',
 		'app-name',
 	]
-		
-		
 	 ```
   
- 
+   Now app folder connection is `OK`
+
+   Now we will run the project so follow the command :
+
+   ```sh
+   python manage.py runserver
+   ```
+   
+
+   
 
 
 
