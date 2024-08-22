@@ -37,7 +37,6 @@ npm create vite@latest
 - Source
 - Package.json
 - Vite Config
-- Structure
 
 ### MY FIRST FUNCTIONAL COMPONENT
 
@@ -66,6 +65,26 @@ In React, a functional component is a type of component that is defined using a 
 ### JSX Inline if else
 ### Immediately invoked 
 - Function expressions inside your JSX
+### JSX Loop Inside
+```jsx
+const Hero = () => {
+  const city = ["Dhaka", "India", "Kolkata", "London", "Japan", "South korea"];
+  return (
+    <div>
+      <ul>
+        {city.map((item, i) => {
+          return <li key={i.tostring}>{item}</li>;
+        })}
+      </ul>
+    </div>
+  );
+};
+
+export default Hero;
+
+```
+### JSX Loop Inside Why we use map
+### 
 
 
 
