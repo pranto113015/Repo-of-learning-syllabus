@@ -32,7 +32,9 @@
   . environment-project-name/Scripts/activate
   ```
   The virtual environment will be activated and you’ll see “(environment-project-name)” next to the command prompt to designate that.
+  
   Now Django can be installed easily using pip within your virtual environment.
+  
   In the command prompt, ensure your virtual environment is active, and execute the following command :
 
 
