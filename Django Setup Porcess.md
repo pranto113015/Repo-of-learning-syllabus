@@ -79,11 +79,10 @@
   ```
   
   Now add my app folder `app-name` after add app folder now look like
-  
 
-  ```sh
+ ```sh
 # Application definition
-
+		
 INSTALLED_APPS = [
 	'django.contrib.admin',
 	'django.contrib.auth',
@@ -93,9 +92,9 @@ INSTALLED_APPS = [
 	'django.contrib.staticfiles',
 	'app-name',
 ]
-
-
-  ```
+	
+	
+ ```
   
  
 
