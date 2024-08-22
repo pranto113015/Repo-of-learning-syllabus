@@ -84,8 +84,46 @@ export default Hero;
 
 ```
 ### JSX Loop Inside Why we use map
-### 
-
+### CONDITIONAL RENDERING 
+- Using an if…else Statement
+    ```sh
+    const LoginStatusBtn = (status) => {
+    if (status) {
+      return <button>Logout Btn</button>;
+    } else {
+      return <button>Login Btn</button>;
+    }
+  };
+  
+  const IfElse = () => {
+    return (
+      <div>
+        <h1>Login Status</h1>
+        {LoginStatusBtn(true)}
+      </div>
+    );
+  };
+  
+  export default IfElse;
+  ```
+- Using Switch Statement
+    ```sh
+    const Switch = () => {
+    const status = false;
+  
+    switch (status) {
+      case true:
+        return <button>Logout Btn</button>;
+      case false:
+        return <button>Login Btn</button>;
+      default:
+        return null;
+    }
+  };
+  
+  export default Switch;
+    ```
+  
 
 
 
