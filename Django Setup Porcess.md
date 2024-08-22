@@ -52,7 +52,12 @@
   ```sh
   cd project-name/
   ```
+  Now we will create the app file so follow the command :
 
+  ```sh
+  python manage.py startapp app-name
+  ```
+  
 
 
 
