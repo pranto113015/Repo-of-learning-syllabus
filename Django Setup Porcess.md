@@ -62,7 +62,23 @@
 
   Now we will app folder `app-name` connect the created main project folder `project-name`
 
-  First go to main project `project-name` folder and select the `settings.py` and accress the file and go to the `INSTALLED_APPS` section
+  First go to main project `project-name` folder and select the `settings.py` and accress the file and go to the `INSTALLED_APPS` section look like
+
+  ```sh
+  # Application definition
+
+  INSTALLED_APPS = [
+  	'django.contrib.admin',
+  	'django.contrib.auth',
+  	'django.contrib.contenttypes',
+  	'django.contrib.sessions',
+  	'django.contrib.messages',
+  	'django.contrib.staticfiles',
+  	'projectApp'
+  ]
+
+  ```
+ 
 
 
 
