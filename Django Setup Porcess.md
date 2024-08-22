@@ -59,8 +59,8 @@
   ```sh
   python manage.py startapp app-name
   ```
-  
 
+  Now we will app folder `app-name` connect the created main project folder `project-name`
 
 
 
