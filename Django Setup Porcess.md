@@ -11,10 +11,12 @@
 - To install Django, you must have Python installed
   - To check if your system has Python installed, run this command in the command prompt :
    
-    ```sh
-    python --version
-    ```
+  ```sh
+  python --version
+   ```
    If show the python version then it is ok
+  
+- Code editor for example : Vs code
 
 # Django Setup Step
 
