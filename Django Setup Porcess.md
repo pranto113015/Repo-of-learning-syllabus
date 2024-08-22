@@ -9,11 +9,11 @@
 - Gaining a thorough understanding of another coding language can make learning Python much easier.
 - Two solid programming languages to start with are HTML and CSS
 - To install Django, you must have Python installed
- - To check if your system has Python installed, run this command in the command prompt :
+  - To check if your system has Python installed, run this command in the command prompt :
    
-   ```sh
-   python --version
-   ```
+    ```sh
+    python --version
+    ```
    If show the python version then it is ok
 
 # Django Setup Step
