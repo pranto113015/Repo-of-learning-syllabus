@@ -65,7 +65,7 @@
 
   First go to main project `project-name` folder and select the `settings.py` and accress the file and go to the `INSTALLED_APPS` section look like
 
-  ```sh
+  ```python
   # Application definition
 
   INSTALLED_APPS = [
@@ -81,7 +81,7 @@
   
   Now add my app folder `app-name` after add app folder now look like
 
-	 ```sh
+	 ```python
 	# Application definition
 			
 	INSTALLED_APPS = [
@@ -182,7 +182,8 @@
 
    Now if we want run the `index.html` file and if we want see the live server then follow some setup .
 
-   Now select the app folder `app-name` and select inside the folder file `views.py` and we will make user defined function in this file look like bellow :
+   Now select the app folder `app-name` and select inside the folder file `views.py` and
+   we will make user defined function in this file look like bellow :
 
    ```python
      # Create your views here.
