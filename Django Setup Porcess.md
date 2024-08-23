@@ -181,15 +181,17 @@
 
    Now if we want run the `index.html` file and if we want see the live server then follow some setup .
 
-   Now select the app folder `app-name` and select inside the folder file `views.py` and we will make user defined function in this file.
+   Now select the app folder `app-name` and select inside the folder file `views.py` and we will make user defined function in this file look like bellow :
 
-   ```sh
+   ```python
      # Create your views here.
 
      def home(request):
      return render(request, "index.html")
     ```
 
+    
+    
    
 
 
