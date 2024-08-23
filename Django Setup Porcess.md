@@ -129,7 +129,7 @@
 
   Go to create main project folder `project-name` and select the file `urls.py` now modify some code look like bellow :
 
-  Need some code copy fast to use after
+  Need some code copy fast to use after this step it is enough
 
   ```sh
 	  from django.urls import path
@@ -137,14 +137,45 @@
 	urlpatterns = [
 	    path('admin/', admin.site.urls),
 	]
-
   ```
 
-  
+  Now modify `urls.py` this file look like bellow :
+
+   Before modify this `urls.py` file code
+
+   ```sh
+	   from django.contrib import admin
+	from django.urls import path
+	
+	urlpatterns = [
+	    path('admin/', admin.site.urls),
+	]
+   ```
    
+   After modify this `urls.py` file code
 
+   ```sh
+	from django.contrib import admin
+	from django.urls import path, include
+	
+	urlpatterns = [
+	    path('admin/', admin.site.urls),
+	    path('', include('app-name.urls'))
+	]
+   ```
+  
+   Now go to created `app-name` app folder and create the file `urls.py` inside this folder and paste the previously copy code look like bellow :
 
+    ```sh
+	from django.urls import path
+	
+	urlpatterns = [
+	    path('admin/', admin.site.urls),
+ 	]
+    ```
+   After paste this code then modify this file look like bellow :
 
+   
 
 
 
