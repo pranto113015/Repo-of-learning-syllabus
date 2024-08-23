@@ -123,6 +123,13 @@
 
   Now Installation is `Done`
 
+
+
+  Now if i will want to make custom html file and work this file then we would follow the some step :
+
+  Go to create main project folder `project-name` and select the file `urls.py` now modify some code look like bellow :
+
+  
    
 
 
