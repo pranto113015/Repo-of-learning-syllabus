@@ -200,7 +200,10 @@
 	    path('', home,name='index')
 	]
     ```
-     
+  
+    Now again run the project using command `python manage.py runserver` and see the output.
+
+    
     
     
    
