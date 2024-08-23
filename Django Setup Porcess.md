@@ -177,6 +177,10 @@
 
    Now create the `index.html` file inside the `templates` folder.
 
+   Now right some code inside `html` file as your wish
+
+   Now if we wiil run the `index.html` file then follow some setup .
+
 
   
 
