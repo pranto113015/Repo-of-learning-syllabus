@@ -18,6 +18,7 @@
    If show the python version then it is ok
   
 - Code editor for example : Vs code
+- Git (optional)
 
 # Setting up a virtual environment Django setup steps :
 
@@ -131,7 +132,7 @@
 
   Need some code copy fast to use after this step it is enough
 
-  ```sh
+  ```python
 	  from django.urls import path
 	
 	urlpatterns = [
@@ -143,8 +144,8 @@
 
    Before modify this `urls.py` file code
 
-   ```sh
-	   from django.contrib import admin
+   ```python
+	from django.contrib import admin
 	from django.urls import path
 	
 	urlpatterns = [
@@ -154,7 +155,7 @@
    
    After modify this `urls.py` file code
 
-   ```sh
+   ```python
 	from django.contrib import admin
 	from django.urls import path, include
 	
@@ -166,7 +167,7 @@
   
    Now go to created `app-name` app folder and create the file `urls.py` inside this folder and paste the previously copy code look like bellow :
 
-    ```sh
+    ```python
 	from django.urls import path
 	
 	urlpatterns = [
