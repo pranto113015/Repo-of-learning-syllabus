@@ -173,7 +173,9 @@
 	   
  	]
     ```
-   Now we will create the `templates` folder
+   Now we will create the `templates` folder inside the created app `app-name` folder.
+
+   Now create the `index.html` file inside the `templates` folder.
 
 
   
