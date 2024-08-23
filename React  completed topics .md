@@ -233,7 +233,30 @@ export default Hero;
 
 ### REACT HOOK
 
-- useRef() Method
+- **useRef() Method** Changing HTML Elements
+
+    ```jsx
+      import { useRef } from "react";
+      
+      const Footer = () => {
+        let myHeadLine = useRef();
+        const change = () => {
+          myHeadLine.current.innerText = "Hellow useRef";
+        };
+      
+        return (
+          <div>
+            <h1 ref={myHeadLine}></h1>
+            <button onClick={change}>Click</button>
+          </div>
+        );
+      };
+      
+      export default Footer;
+
+    ```
+
+   
 
    
 
