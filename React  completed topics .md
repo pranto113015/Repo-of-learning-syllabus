@@ -256,7 +256,12 @@ export default Hero;
 
     ```
 
-   
+- **useRef() Method** Method Working With Attributes
+
+     ```jsx
+
+     
+     ```
 
    
 
