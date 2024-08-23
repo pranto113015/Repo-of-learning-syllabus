@@ -230,7 +230,12 @@ export default Hero;
       
       export default Footer;
     ```
-  
+
+### REACT HOOK
+
+- useRef() Method
+
+   
 
 
 
