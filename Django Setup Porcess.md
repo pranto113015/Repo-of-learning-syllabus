@@ -177,9 +177,11 @@
 
    Now create the `index.html` file inside the `templates` folder.
 
-   Now right some code inside `html` file as your wish
+   Now right some code inside `html` file as your wish.
 
-   Now if we wiil run the `index.html` file then follow some setup .
+   Now if we want run the `index.html` file and if we want see the live server then follow some setup .
+
+   
 
 
   
