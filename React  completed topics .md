@@ -189,6 +189,50 @@ export default Hero;
 
 ### RESPONDING TO EVENTS
 
+- Adding event handlers
+  
+    ```jsx
+      function handleClick() {
+      alert("Yor Clicked Me!");
+    }
+    
+    const Footer = () => {
+      return (
+        <div>
+          <button onClick={handleClick}>Click Me</button>
+        </div>
+      );
+    };
+    
+    export default Footer;
+  
+    ```
+    
+- Preventing default behavior
+
+    ```jsx
+        const PostFormData = (event) => {
+        event.preventDefault();
+        //  todo
+        alert("Your form submitted");
+      };
+      
+      const Footer = () => {
+        return (
+          <div>
+            <form onSubmit={PostFormData}>
+              <input placeholder="name" />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        );
+      };
+      
+      export default Footer;
+    ```
+  
+
+
 
 
 
