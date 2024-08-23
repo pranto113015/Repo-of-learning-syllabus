@@ -170,10 +170,15 @@
 	from django.urls import path
 	
 	urlpatterns = [
-	    path('admin/', admin.site.urls),
+	   
  	]
     ```
-   After paste this code then modify this file look like bellow :
+   Now we will create the `templates` folder
+
+
+  
+
+   
 
    
 
