@@ -190,6 +190,17 @@
      return render(request, "index.html")
     ```
 
+    Now need call the function so go to the app folder `app-name` and select the file `urls.py` and write the code bellow :
+
+    ```python
+	from django.urls import path
+	from . views import home
+	
+	urlpatterns = [
+	    path('', home,name='index')
+	]
+    ```
+     
     
     
    
