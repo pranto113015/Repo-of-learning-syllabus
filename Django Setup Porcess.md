@@ -129,6 +129,17 @@
 
   Go to create main project folder `project-name` and select the file `urls.py` now modify some code look like bellow :
 
+  Need some code copy fast to use after
+
+  ```sh
+	  from django.urls import path
+	
+	urlpatterns = [
+	    path('admin/', admin.site.urls),
+	]
+
+  ```
+
   
    
 
