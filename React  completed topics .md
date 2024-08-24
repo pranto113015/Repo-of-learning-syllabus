@@ -281,7 +281,48 @@ export default Hero;
       
       export default Footer;
 
-     
+     ```
+
+- **useRef() Method** Working With Input Element
+  
+     ```jsx
+        import { useRef } from "react";
+        
+        function App() {
+          let firstName,
+            lastName,
+            mobileNumber = useRef();
+          const change = () => {
+            let fName = firstName.value;
+            let lName = lastName.value;
+            let mNumber = mobileNumber.value;
+        
+            alert(
+              "Name : " + fName + " " + lName + " , " + "Mobie Number : " + mNumber
+            );
+          };
+        
+          return (
+            <div>
+              <label>First Name : </label>
+              <input ref={(a) => (firstName = a)} placeholder="First Name" />
+              <br />
+              <br />
+              <label>Last Name : </label>
+              <input ref={(a) => (lastName = a)} placeholder="Last Name" />
+              <br />
+              <br />
+              <label>Mobile Number : </label>
+              <input ref={(a) => (mobileNumber = a)} placeholder="Mobile Number" />
+              <br />
+              <br />
+              <button onClick={change}>Click & Show</button>
+            </div>
+          );
+        }
+        
+        export default App;
+
      ```
 
    
