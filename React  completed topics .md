@@ -259,6 +259,27 @@ export default Hero;
 - **useRef() Method** Method Working With Attributes
 
      ```jsx
+      import { useRef } from "react";
+      
+      const Footer = () => {
+        let myImg = useRef();
+      
+        const change = () => {
+          myImg.current.src = "https://placehold.co/600x400?text=Hello+World";
+          myImg.current.setAttribute("height", "200px");
+          myImg.current.setAttribute("weight", "300px");
+        };
+      
+        return (
+          <div>
+            <img ref={myImg} src="https://placehold.co/600x400" alt="sample_img" />
+      
+            <button onClick={change}>Click</button>
+          </div>
+        );
+      };
+      
+      export default Footer;
 
      
      ```
