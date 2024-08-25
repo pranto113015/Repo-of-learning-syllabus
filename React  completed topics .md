@@ -334,37 +334,36 @@ export default Hero;
    ```
   After run the file then bootstrap file connect with the main.jsx file so write this code main.jsx file header section :
 
-        ```jsx
-          import "bootstrap";
-          import "bootstrap/dist/css/bootstrap.css";
-        ```
+    ```jsx
+     import "bootstrap";
+     import "bootstrap/dist/css/bootstrap.css";
+    ```
       
   Now practise code
-
   
         ```jsx
-        import { useRef } from "react";
-      
-      function App() {
-        let myHeadLine = useRef();
-        const change = () => {
-          myHeadLine.current.classList.remove("text-primary");
-          myHeadLine.current.classList.add("text-danger");
-        };
-      
-        return (
-          <div>
-            <h1 className="text-primary" ref={myHeadLine}>
-              This is head line
-            </h1>
-            <button onClick={change}>Click & Change</button>
-          </div>
-        );
-      }
-      
-      export default App;
-
-  ```
+            import { useRef } from "react";
+          
+          function App() {
+            let myHeadLine = useRef();
+            const change = () => {
+              myHeadLine.current.classList.remove("text-primary");
+              myHeadLine.current.classList.add("text-danger");
+            };
+          
+            return (
+              <div>
+                <h1 className="text-primary" ref={myHeadLine}>
+                  This is head line
+                </h1>
+                <button onClick={change}>Click & Change</button>
+              </div>
+            );
+          }
+          
+          export default App;
+  
+       ```
   
 
 
