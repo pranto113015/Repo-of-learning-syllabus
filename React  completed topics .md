@@ -341,30 +341,30 @@ export default Hero;
       
   Now practise code
   
-        ```jsx
-            import { useRef } from "react";
-          
-          function App() {
-            let myHeadLine = useRef();
-            const change = () => {
-              myHeadLine.current.classList.remove("text-primary");
-              myHeadLine.current.classList.add("text-danger");
-            };
-          
-            return (
-              <div>
-                <h1 className="text-primary" ref={myHeadLine}>
-                  This is head line
-                </h1>
-                <button onClick={change}>Click & Change</button>
-              </div>
-            );
-          }
-          
-          export default App;
-  
-       ```
-  
+   ```jsx
+   
+      import { useRef } from "react";
+      
+      function App() {
+        let myHeadLine = useRef();
+        const change = () => {
+          myHeadLine.current.classList.remove("text-primary");
+          myHeadLine.current.classList.add("text-danger");
+        };
+      
+        return (
+          <div>
+            <h1 className="text-primary" ref={myHeadLine}>
+              This is head line
+            </h1>
+            <button onClick={change}>Click & Change</button>
+          </div>
+        );
+      }
+      
+      export default App;
+   
+   ```
 
 
 
