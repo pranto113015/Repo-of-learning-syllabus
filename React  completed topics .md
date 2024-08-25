@@ -327,7 +327,7 @@ export default Hero;
 
 - **useRef() Method** Working With Add Remove CSS Class
 
-   Before this method practise need install the bootstrap by npm that simplify the css. so follow the command and run the bootstrap :
+   Before this method practise need install the bootstrap by npm that simplify the css. so open the vs code terminal and follow the command and run the bootstrap :
 
    ```sh
      npm i bootstrap@5.3.3
@@ -335,10 +335,35 @@ export default Hero;
   After run the file then bootstrap file connect with the main.jsx file so write this code main.jsx file header section :
 
   ```jsx
-    import "bootstrap";
-    import "bootstrap/dist/css/bootstrap.css";
-  ```
+          import "bootstrap";
+          import "bootstrap/dist/css/bootstrap.css";
+        ```
+      
+        Now practise code
+      
+        ```jsx
+        import { useRef } from "react";
+      
+      function App() {
+        let myHeadLine = useRef();
+        const change = () => {
+          myHeadLine.current.classList.remove("text-primary");
+          myHeadLine.current.classList.add("text-danger");
+        };
+      
+        return (
+          <div>
+            <h1 className="text-primary" ref={myHeadLine}>
+              This is head line
+            </h1>
+            <button onClick={change}>Click & Change</button>
+          </div>
+        );
+      }
+      
+      export default App;
 
+  ```
   
 
 
