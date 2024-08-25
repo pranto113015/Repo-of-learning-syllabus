@@ -334,13 +334,14 @@ export default Hero;
    ```
   After run the file then bootstrap file connect with the main.jsx file so write this code main.jsx file header section :
 
-  ```jsx
+        ```jsx
           import "bootstrap";
           import "bootstrap/dist/css/bootstrap.css";
         ```
       
-        Now practise code
-      
+  Now practise code
+
+  
         ```jsx
         import { useRef } from "react";
       
