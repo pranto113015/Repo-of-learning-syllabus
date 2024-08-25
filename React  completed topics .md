@@ -389,6 +389,37 @@ export default Hero;
 
   ```
 
+- **useRef()** Caching expensive computations
+
+    ```jsx
+          import { useRef } from "react";
+          
+          function App() {
+            let APIData = useRef(null);
+            let myPTag = useRef();
+          
+            const fetchhData = async () => {
+              const res = await fetch("https://dummyjson.com/products");
+              APIData.current = await res.json();
+            };
+          
+            const showData = () => {
+              myPTag.current.innerText = JSON.stringify(APIData.current);
+            };
+          
+            return (
+              <div>
+                <p ref={myPTag}></p>
+                <button onClick={fetchhData}>Call API</button> <br />
+                <button onClick={showData}>Show Data</button>
+              </div>
+            );
+          }
+          
+          export default App;
+
+    ```
+
 
 
 
