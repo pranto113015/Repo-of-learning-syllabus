@@ -420,6 +420,8 @@ export default Hero;
 
     ```
 
+- **useState() Method** Counter Example
+
 
 
 
