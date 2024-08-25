@@ -327,6 +327,20 @@ export default Hero;
 
 - **useRef() Method** Working With Add Remove CSS Class
 
+   Before this method practise need install the bootstrap by npm that simplify the css. so follow the command and run the bootstrap :
+
+   ```sh
+     npm i bootstrap@5.3.3
+   ```
+  After run the file then bootstrap file connect with the main.jsx file so write this code main.jsx file header section :
+
+  ```jsx
+    import "bootstrap";
+    import "bootstrap/dist/css/bootstrap.css";
+  ```
+
+  
+
 
 
 
