@@ -366,8 +366,28 @@ export default Hero;
    
    ```
 
+- **useRef() Method** Create Persisted Mutable Values
 
+  ```jsx
+    import { useRef } from "react";
+    
+    function App() {
+      let number = useRef(0);
+      const change = () => {
+        number.current++;
+        console.log(number.current);
+      };
+    
+      return (
+        <div>
+          <button onClick={change}>Click</button>
+        </div>
+      );
+    }
+    
+    export default App;
 
+  ```
 
 
 
