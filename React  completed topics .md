@@ -443,6 +443,41 @@ export default Hero;
 
   ```
 
+- **useState() Method** Working With Object
+
+  ```jsx
+    import { useState } from "react";
+    
+    function App() {
+      const [myObject, setMyObject] = useState({
+        key1: "Name",
+        key2: "Mobile",
+        key3: "Gmail",
+      });
+    
+      const updateObject = () => {
+        setMyObject((prevOBJ) => ({
+          ...prevOBJ,
+          key1: "Name : Pranto Kumar",
+          key2: "Mobile : 01992113015",
+          key3: "Gmail : pranto113015@gmail.com",
+        }));
+      };
+    
+      return (
+        <div>
+          <h1>{myObject.key1}</h1>
+          <h1>{myObject.key2}</h1>
+          <h1>{myObject.key3}</h1>
+          <button onClick={updateObject}>Click</button>
+        </div>
+      );
+    }
+    
+    export default App;
+
+  ```
+
 
 
 
