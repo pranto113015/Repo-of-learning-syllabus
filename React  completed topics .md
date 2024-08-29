@@ -630,24 +630,24 @@ export default Hero;
 
     ```
 - **useEffect() Method**
-
-  ```jsx
-  import { useEffect } from "react";
   
-  function App() {
-    useEffect(() => {
-      console.log("Hello useEffect");
-    }, [0]);
-  
-    return (
-      <div>
-        <p>Practise of useEffect method</p>
-      </div>
-    );
-  }
-  
-  export default App;
-```
+    ```jsx
+    import { useEffect } from "react";
+    
+    function App() {
+      useEffect(() => {
+        console.log("Hello useEffect");
+      }, [0]);
+    
+      return (
+        <div>
+          <p>Practise of useEffect method</p>
+        </div>
+      );
+    }
+    
+    export default App;
+  ```
 
 
 
