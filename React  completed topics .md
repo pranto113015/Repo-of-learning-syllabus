@@ -549,9 +549,87 @@ export default Hero;
      ```
     Now practise code is :
     ```jsx
-    
-    ```
+      import { useState } from "react";
+      
+      function App() {
+        let [FormObj, SetFormObj] = useState({
+          fName: "",
+          lName: "",
+          city: "",
+          gender: "",
+        });
+      
+        const InputOnChange = (porperty, value) => {
+          SetFormObj((preObj) => ({
+            ...preObj,
+            [porperty]: value,
+          }));
+        };
+      
+        const FormSubmit = (e) => {
+          e.preventDefault();
+          alert(JSON.stringify(FormObj));
+        };
+      
+        return (
+          <div className="container">
+            <form onSubmit={FormSubmit}>
+              <input
+                onChange={(e) => {
+                  InputOnChange("fName", e.target.value);
+                }}
+                value={FormObj.fName}
+                placeholder="First Name"
+              />
+              <br />
+              <input
+                onChange={(e) => {
+                  InputOnChange("lName", e.target.value);
+                }}
+                value={FormObj.lName}
+                placeholder="Last Name"
+              />
+              <br />
+              <select
+                onChange={(e) => {
+                  InputOnChange("city", e.target.value);
+                }}
+                value={FormObj.city}
+              >
+                <option value="">Choose City</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Rajshahi">Rajshahi</option>
+              </select>
+              <br />
+              <input
+                onChange={(e) => {
+                  InputOnChange("gender", "Male");
+                }}
+                checked={FormObj.gender == "Male"}
+                type="radio"
+                name="gender"
+              />
+              Male
+              <input
+                onChange={(e) => {
+                  InputOnChange("gender", "Female");
+                }}
+                checked={FormObj.gender == "Female"}
+                type="radio"
+                name="gender"
+              />
+              Female
+              <br />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        );
+      }
+      
+      export default App;
 
+    ```
+- **useEffect() Method**
 
 
 
