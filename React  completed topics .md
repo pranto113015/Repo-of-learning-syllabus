@@ -671,6 +671,9 @@ export default Hero;
 
    ```
 
+- **useEffect() Method** Fetch Async Await Example
+
+    
 
 
 
