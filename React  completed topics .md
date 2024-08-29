@@ -536,18 +536,18 @@ export default Hero;
 
 - **useState() Method** Manage Form
   
-   Nedd some default css so install and import the minimalist CSS framework so follow this command :
+   Nedd some default css so install and import the `milligram CSS framework`(this is provide some design by default without write any css class) so follow this command :
   
    Install with npm
    ```css
    npm install milligram
    ```
-   After install now go to `app.jsx` file and import this code
+   After install now go to `app.jsx` file and import this code :
 
      ```jsx
      import "milligram/dist/milligram.css";
      ```
-    Now practise code is
+    Now practise code is :
     ```jsx
     
     ```
