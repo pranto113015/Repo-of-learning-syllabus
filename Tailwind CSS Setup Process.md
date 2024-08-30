@@ -49,13 +49,27 @@ module.exports = {
 }
 ```
 
-**Step 5 :** Now we will create the `main.css` file inside the project folder. After completing this css file copy this code .
+**Step 5 :** Now we will create the `main.css` file inside the project folder. After completing this css file copy this code.
 
 ```sh
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
+
+**Step 6 :** Now open the `package.json` file then go to the scripts key and create the new key look like bellow :
+
+```sh
+"scripts": {
+ "start": "vite"
+ },
+```
+
+**Step 7 :** Now we will create the `index.html` file inside the project folder then make the html boilerplate and link up the css file inside the header section. 
+
+**Step 8 :** 
+
+
 
 
 
