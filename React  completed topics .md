@@ -798,10 +798,72 @@ export default Hero;
  ```
 
 
+  assets css style.css
+ ```css
+     .active_item {
+        color: green;
+    }
+    
+    .pending_item {
+        color: red;
+    }
+ ```
+
+  pages Homepage.jsx
+ ```jsx
+    import Menu from "../component/Menu";
+    
+    const Homepage = () => {
+      return (
+        <div>
+          <Menu />
+          <h1>This is home page</h1>
+        </div>
+      );
+    };
+    
+    export default Homepage;
+
+ ```
 
 
 
+ pages Producpage.jsx
+ ```jsx
+    import React from "react";
+    import Menu from "../component/Menu";
+    
+    const Producpage = () => {
+      return (
+        <div>
+          <Menu />
+          <h1>This is product page</h1>
+        </div>
+      );
+    };
+    
+    export default Producpage;
 
+ ```
+
+
+ pages Pofilepage.jsx
+ ```jsx
+  import React from "react";
+import Menu from "../component/Menu";
+
+const Pofilepage = () => {
+  return (
+    <div>
+      <Menu />
+      <h1>This is pofile page</h1>
+    </div>
+  );
+};
+
+export default Pofilepage;
+
+ ```
 
 
 
