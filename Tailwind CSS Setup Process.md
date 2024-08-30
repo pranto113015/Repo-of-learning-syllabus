@@ -84,7 +84,12 @@ module.exports = {
 </html>
 ```
 
-**Step 8 :** 
+**Step 8 :** Now if you run the project then go to terminal and write the command.
+
+```sh
+npm start
+```
+After execute this command will provide the local port address. Now click address will open the project by default browser.
 
 
 
