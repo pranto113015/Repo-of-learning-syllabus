@@ -22,6 +22,19 @@ npm install -D tailwindcss postcss autoprefixer vite
 ```
 After execute this command automatic will created the file `package-lock.json` and folder `node_modules`
 
+**Step 3 :**   
+
+```sh
+npx tailwindcss init
+```
+After execute this command automatic will created the file `tailwind.config.js` 
+
+**Step 4 :**   
+
+```sh
+npx tailwindcss init -p
+```
+After execute this command automatic will created the file `postcss.config.js` 
 
 
 
