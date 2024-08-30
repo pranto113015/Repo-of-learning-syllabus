@@ -1,1 +1,32 @@
+# Tailwind CSS Environment Setup
+
+
+### Prerequisite :
+Tailwind CSS requires **Node.js 12.13.0 or higher**.
+
+
+### Using PostCSS
+Now follow this step :
+
+**Step 1 :** First Created the project name folder then open this folder by visual studio code editor then writing the following code visual studio code terminal.
+
+```sh
+npm init -y
+```
+After execute this command automatic will created the `package.json` file
+
+**Step 2 :**   
+
+```sh
+npm install -D tailwindcss postcss autoprefixer vite
+```
+After execute this command automatic will created the file `package-lock.json` and folder `node_modules`
+
+
+
+
+
+
+
+
 
