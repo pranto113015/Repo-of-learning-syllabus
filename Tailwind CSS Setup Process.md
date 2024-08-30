@@ -65,7 +65,24 @@ module.exports = {
  },
 ```
 
-**Step 7 :** Now we will create the `index.html` file inside the project folder then make the html boilerplate and link up the css file inside the header section. 
+**Step 7 :** Now we will create the `index.html` file inside the project folder then make the html boilerplate and link up the css file inside the header section look like bellow :
+
+```html
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Using PostCSS</title>
+  <link href="./main.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+```
 
 **Step 8 :** 
 
