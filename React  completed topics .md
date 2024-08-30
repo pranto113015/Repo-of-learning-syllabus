@@ -699,11 +699,14 @@ export default Hero;
 - The react-router-dom package contains bindings for using React Router in `web applications`(this is use for web aplication).
 - The react-router-native package contains bindings for using React Router in React `Native applications` (this is use for mobile aplication).
 
-  Now we work web application so install the react-routerdom. So follow the command to install :
+  Now we work web application so install the react-routerdom (this for web applicaton) . So follow the command to install :
 
   ```sh
   npm i react-router-dom
   ```
+
+  
+  
 
 
 
