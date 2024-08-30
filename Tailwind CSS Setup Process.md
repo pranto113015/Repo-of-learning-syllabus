@@ -36,6 +36,19 @@ npx tailwindcss init -p
 ```
 After execute this command automatic will created the file `postcss.config.js` 
 
+**Step 5 :** Open the `tailwind.config.js` file and customize this code. This is actually used for  location what file use tailwind css.
+
+```sh
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
 
 
 
