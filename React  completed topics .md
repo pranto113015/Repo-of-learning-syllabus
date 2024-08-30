@@ -705,8 +705,97 @@ export default Hero;
   npm i react-router-dom
   ```
 
+ Now practise code are :
+
+ main.jsx
+ ```jsx
+  import { StrictMode } from "react";
+  import { createRoot } from "react-dom/client";
+  import App from "./App.jsx";
+  import "./assets/css/style.css";
   
+  createRoot(document.getElementById("root")).render(
+    <StrictMode>
+      <App />
+    </StrictMode>
+  );
+
+ ```
+
+ App.jsx
+ ```jsx
+  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  import Homepage from "./pages/Homepage";
+  import Pofilepage from "./pages/Pofilepage";
+  import Producpage from "./pages/Producpage";
+  import Notfound from "./pages/Notfound";
   
+  function App() {
+    return (
+      <div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/pofile" element={<Pofilepage />} />
+            <Route path="/product" element={<Producpage />} />
+            <Route path="*" element={<Notfound />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    );
+  }
+  
+  export default App;
+
+ ```
+
+  component  Menu.jsx
+ ```jsx
+    import React from "react";
+    import { NavLink } from "react-router-dom";
+    
+    const Menu = () => {
+      return (
+        <div>
+          <ul>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "active_item " : "pending_item "
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "active_item " : "pending_item "
+                }
+                to="/pofile"
+              >
+                Pofile
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "active_item " : "pending_item "
+                }
+                to="/product"
+              >
+                Product
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+      );
+    };
+    
+    export default Menu;
+
+ ```
 
 
 
