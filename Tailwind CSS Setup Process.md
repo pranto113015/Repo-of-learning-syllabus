@@ -49,6 +49,14 @@ module.exports = {
 }
 ```
 
+**Step 5 :** Now we will create the `main.css` file inside the project folder. After completing this css file copy this code .
+
+```sh
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 
 
 
