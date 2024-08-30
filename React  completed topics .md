@@ -705,7 +705,7 @@ export default Hero;
   npm i react-router-dom
   ```
 
- Now practise code are :
+ Now practise code are : (using this practise code topics covered :BrowserRouter, Routes, Route, NavLink, ClassName, css, Component, pages and acitvelink condition by ternary operator)
 
  main.jsx
  ```jsx
