@@ -673,7 +673,27 @@ export default Hero;
 
 - **useEffect() Method** Fetch Async Await Example
 
+  ```jsx
+    import { useEffect, useState } from "react";
     
+    function App() {
+      let [data, setData] = useState();
+    
+      useEffect(() => {
+        (async () => {
+          let response = await fetch("https://dummyjson.com/products/1");
+          let json = await response.json();
+          setData(json);
+        })();
+      }, []);
+    
+      return <div>{JSON.stringify(data)}</div>;
+    }
+    
+    export default App;
+  ```
+
+
 
 
 
