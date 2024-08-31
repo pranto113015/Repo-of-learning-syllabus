@@ -866,7 +866,19 @@ export default Pofilepage;
  ```
 
 
+- `HashRouter` is for use in web browsers when the URL should not (or cannot) be sent to the server for some reason.This may happen in some shared hosting scenarios where
+  you do not have full control over the server
+  
+- URL appearance: HashRouter will include a hash (#) in the URL, while BrowserRouter will provide cleaner
+  URLs without the hash.
 
+- Compatibility: HashRouter works on all servers since the hash portion of the URL is not sent to the server. BrowserRouter relies on the server to handle routing for all URLs, so it 
+  requires server configuration to redirect requests to the main React app.
+
+- Server-side rendering (SSR): BrowserRouter may require additional server-side configuration to handle routing correctly, while HashRouter can be used more easily for server-side 
+  rendering.
+
+### REACT ROUTER DOM Passing Parameter
 
 
 
