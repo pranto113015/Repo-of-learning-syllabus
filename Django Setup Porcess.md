@@ -230,8 +230,27 @@
 
 - First download or create the template.
 - Now template main index.html file move the django template folder drag and drop.
-- 
+- The cerate the folder name `static` inside the `myapp` folder.
+- Now go to the index.html file and all the `href` and `src` link tag modify the like this bellow :
 
+  ```sh
+  <link href="{% static 'asset/css/bootstrap.min.css' %}" rel="stylesheet">
+  ```
+  after done all of the link convert to static then follow the next step.
+
+- Now write this code inside the top of `head` tag
+
+  ```sh
+  {% load static %}
+  ```
+- Now go to terminal and again write the code
+
+  ```sh
+  python manage.py collectstatic
+  ```
+  after run the code and write the permission the terminal `yes` and continue
+  
+- 
   
 
     
