@@ -203,7 +203,32 @@
 	]
     ```
   
-    Now again run the project using command `python manage.py runserver` and see the output.
+    Now again run the project using command `python manage.py runserver` and see the output. `Done`
+
+
+# Re-open the created Django project and add custom template guide :
+
+- First open the project folder by vs code
+- Then open the termenal and write the code to active the Django environment
+
+  ```sh
+  . myenv/Scripts/activate
+  ```
+- Then move the project folder so follow the command
+
+  ```sj
+  cd myproject/
+  ```
+- Now run the project follow the command
+
+  ```sh
+  python manage.py runserver
+  ```
+- Done this work. `Done`
+
+ 
+
+  
 
     
     
