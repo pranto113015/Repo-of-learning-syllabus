@@ -236,7 +236,7 @@
   ```sh
   <link href="{% static 'asset/css/bootstrap.min.css' %}" rel="stylesheet">
   ```
-  after done all of the link convert to static then follow the next step.
+  after done all of the link convert to static then follow the next step. Same procedure of the image tag also.
 
 - Now write this code inside the top of `head` tag
 
