@@ -243,13 +243,39 @@
   ```sh
   {% load static %}
   ```
-- Now go to terminal and again write the code
+- Now go to terminal runnig server stop to click `Ctrl + c` then stop the running server and again write the code
 
   ```sh
   python manage.py collectstatic
   ```
   after run the code and write the permission the terminal `yes` and continue
   
+- Then go to the myproject folder and open the file `settings.py` and write the code
+
+  find same typw location 
+  ```sh
+  # Static files (CSS, JavaScript, Images)
+  # https://docs.djangoproject.com/en/4.2/howto/static-files/
+
+  STATIC_URL = 'static/'
+
+  # Default primary key field type
+  # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+  ```
+
+  after write code then show like bellow
+  ```sh
+  # Static files (CSS, JavaScript, Images)
+  # https://docs.djangoproject.com/en/4.2/howto/static-files/
+
+  STATIC_ROOT = BASE_DIR / 'static/' 
+  STATIC_URL = 'static/'
+
+  # Default primary key field type
+  # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+
+  DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+  ```
 - 
   
 
