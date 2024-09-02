@@ -252,7 +252,7 @@
   
 - Then go to the myproject folder and open the file `settings.py` and write the code
 
-  find same typw location 
+  find same type location 
   ```sh
   # Static files (CSS, JavaScript, Images)
   # https://docs.djangoproject.com/en/4.2/howto/static-files/
@@ -276,8 +276,19 @@
 
   DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
   ```
-- 
   
+- Again write the code
+
+  ```sh
+  python manage.py collectstatic
+  ```
+- Now the code and run the project
+
+  ```sh
+  python manage.py runserver
+  ```
+
+- Now this work is done. `Done`
 
     
     
