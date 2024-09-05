@@ -14,15 +14,13 @@ git remote add origin https://github.com/pranto113015/Demo-Repository-Pro-2k24.g
 git push -u origin main
 ```
 
+
 …or push an existing repository from the command line
 ```sh
 git remote add origin https://github.com/pranto113015/Demo-Repository-Pro-2k24.git
 git branch -M main
 git push -u origin main
 ```
-
-
-
 
 
 #### External Command
@@ -87,8 +85,48 @@ git revert <commit>
 ```
 
 
+#### Working flow gihub
+
+undo changs ( working directory-> stagging area-> local repo-> remote-repo)
+
+```sh
+git checkout -- . (undo from unstaging)
+git reset HEAD . (undo from stagging )
+git reset -hard HEAD . (undo from stagging & unstaging)
+```
 
 
+
+
+
+#### Set vs code github account by git bash terminal
+
+```sh
+git config --global user.name "github user name this area"
+```
+```sh
+git config --global user.email "github user email this area"
+```
+
+
+
+
+#### git clone command
+
+```sh
+git clone <url>
+```
+
+#### Multiple commit title with sub title
+
+```sh
+git commit -m "main title" -m "sub title 1" -m "sub title 2"
+```
+
+
+#### vs code shotcut
+
+keyboard shortcut with the backtick character to show or hide the terminal window `Use the Ctrl + ` 
 
 
 
