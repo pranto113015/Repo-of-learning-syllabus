@@ -293,7 +293,13 @@
     
     
     
-   
+# Others Django command :
+
+```sh
+python manage.py makemigrations
+```
+
+
 
 
   
