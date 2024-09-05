@@ -299,6 +299,10 @@
 python manage.py makemigrations
 ```
 
+```sh
+python manage.py migrate
+```
+
 
 
 
