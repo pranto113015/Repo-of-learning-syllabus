@@ -303,6 +303,9 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+```sh
+python manage.py createsuperuser
+```
 
 
 
