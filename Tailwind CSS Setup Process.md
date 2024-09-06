@@ -91,6 +91,14 @@ npm start
 ```
 After execute this command will provide the local port address. Now click address will open the project by default browser. `Done`
 
+---
+
+
+# Plugin for Tailwind CSS (component library)
+
+- [daisyUI](https://daisyui.com/)
+- [Flowbite](https://flowbite.com/)
+
 
 
 
