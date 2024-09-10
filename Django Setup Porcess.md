@@ -290,12 +290,44 @@
 
 - Now this work is done. `Done`
 
+
+
 # Upload Image Backend and show template in Django guide :
 
 First install the package
 ```sh
 python -m pip install Pillow
 ```
+
+Then `models.py` file for `image` code look like
+```py
+class Testimonial(models.Model):
+    t_discription = models.CharField(max_length=250)
+    name = models.CharField(max_length=80)
+    t_designation = models.CharField(max_length=100)
+    image= models.ImageField(upload_to='static/assets/img/testimonials/', default='#')
+    
+    def __str__(self):
+     return self.name
+```
+
+Then `urls.py` file code look like
+
+```py
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+
+]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+```
+
+
 
 
 
