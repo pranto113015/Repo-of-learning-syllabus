@@ -290,7 +290,15 @@
 
 - Now this work is done. `Done`
 
-    
+# Upload Image Backend and show template in Django guide :
+
+First install the package
+```sh
+python -m pip install Pillow
+```
+
+
+
     
     
 # Others Django command :
