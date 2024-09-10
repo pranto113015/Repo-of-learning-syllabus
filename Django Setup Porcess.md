@@ -334,10 +334,26 @@ import os
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 ```
+Then `.html` file write code look like 
 
+```html
+       
+     {% for d in testimonial %}
+            <div class="swiper-slide">
+              <div class="testimonial-item" "="">
+            <p>
+              <i class=" bi bi-quote quote-icon-left"></i>
+                <span>{{ d.t_discription }}</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src= "{{ d.image.url }}" class="testimonial-img" alt="pic">
+                <h3>{{ d.name }}</h3>
+                <h4>{{ d.t_designation }}</h4>
+              </div>
+            </div><!-- End testimonial item -->
+               {% endfor %}
 
-
-
+```
 
 
 
