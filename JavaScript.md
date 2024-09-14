@@ -21,7 +21,8 @@
   - operators : Arithmetic (+,-,*,/,%), Assignment, Comparision (>,<,<=,>=,==,===), Logical(&&, ||, !), unary(+,-,++,--)
 - Control statement
   - conditional control statement : if, else, elseif, switch
-  - loop control statement
+  - loop control statement : for, while, do while, (while vs do while ), for of, for in
+    
 
 
 
