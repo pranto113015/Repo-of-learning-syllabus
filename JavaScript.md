@@ -21,9 +21,23 @@
   - operators : Arithmetic (+,-,*,/,%), Assignment, Comparision (>,<,<=,>=,==,===), Logical(&&, ||, !), unary(+,-,++,--)
 - Control statement
   - conditional control statement : if, else, elseif, switch
-  - loop control statement : for, while, do while, (while vs do while ), for of, for in
-    
-
+  - loop control statement : for, while, do while, (break, continue), (while vs do while ) 
+- Array, String, Object
+  - for of, for in
+- function vs method
+   - Function (traditionla vs arrow) 
+   - Number and Math method
+- ES6,ES7
+   - var, let, const
+   - module
+   - spread operator, Rest parameters
+   - Destructure
+   - Hhigher order function : map, filter, foreach, reduce, callback functions
+   - Asynchronous programming : async, await, then, catch, callback
+- Error handling
+- JSON
+- DOM and Event hendler
+  
 
 
 
