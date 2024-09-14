@@ -22,7 +22,6 @@
 - Control statement
   - conditional control statement : if, else, elseif, switch
   - loop control statement
-  - 
 
 
 
