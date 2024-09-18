@@ -356,14 +356,11 @@ Then `.html` file write code look like
 ```
 
 
+# To make requirements.txt file for deploying :
 
-
-
-
-
-
-
-
+```sh
+pip freeze > requirements.txt
+````
 
     
     
