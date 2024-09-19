@@ -362,9 +362,26 @@ Then `.html` file write code look like
 pip freeze > requirements.txt
 ````
 
+# Django project deployment in PythonAnywhere guide :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
-# Others Django command :
+# Others Django command for Models :
 
 ```sh
 python manage.py makemigrations
