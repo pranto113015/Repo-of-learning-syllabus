@@ -364,20 +364,21 @@ pip freeze > requirements.txt
 
 # Django project deployment in PythonAnywhere guide :
 
-1. Create an account on Pythonanywhere. [click](https://www.pythonanywhere.com/)
-2. Create a Repository on GitHub as project folder name.
-3. Push your project to GitHub without django environment folder.
-4. Create django requirements files
-5. Run the django project by following command
+- Create an account on Pythonanywhere. [click](https://www.pythonanywhere.com/)
+- Create a Repository on GitHub as project folder name.
+- Push your project to GitHub without django environment folder.
+- Create django requirements files
+- Run the django project by following command
    ```sh
    python manage.py runserver
    ```
-7. create django requirements files by following command
+- create django requirements files by following command
    ```sh
    python -m pip freeze > requirements.txt
    ```
-8. Then go to the github repository and copy git clone link
-9. Then go to the Pythonanywhere website dashboard and select the menu console and write the command look like
+- Then go to the github repository and copy git clone link
+- Then go to the Pythonanywhere website dashboard and select the menu console and write the command look like
+  
     ```sh
     git clone https://github.com/pranto113015/blog-website-django.git
     ```
@@ -392,9 +393,9 @@ pip freeze > requirements.txt
     pip install -r requirements.txt
     ```
 
-10. Then back the console and go to the web menu and create the new web app selecting by python version manualy.
+- Then back the console and go to the web menu and create the new web app selecting by python version manualy.
     
-11. After completing the web app then need some changes the path look like bellow
+- After completing the web app then need some changes the path look like bellow
 
     ```bash
     #Code:
@@ -410,7 +411,8 @@ pip freeze > requirements.txt
 	
 	 /media/    /home/PKCSE/blog-website-django/media_root/
     ```
- 12. Then setting up WSGI file
+ - Then setting up WSGI file
+     
      ```bash
 	import os
 	import sys
@@ -426,12 +428,12 @@ pip freeze > requirements.txt
 	from django.contrib.staticfiles.handlers import StaticFilesHandler 
 	application = StaticFilesHandler(get_wsgi_application())
      ```
-13. After completing the hold thing then auto generate onn project live link this link copy then go myproject/settings.py file and copy the link look like bellow
+- After completing the hold thing then auto generate onn project live link this link copy then go myproject/settings.py file and copy the link look like bellow
     ```bash
     ALLOWED_HOSTS = ['pkcse.pythonanywhere.com']
     ```
-14. Now it is done. `Done`
-confussion then follow the video [link](https://www.youtube.com/watch?v=2kaumOGU62A&list=WL) 
+- Now it is done. `Done`
+If any confussion then follow the video [link](https://www.youtube.com/watch?v=2kaumOGU62A&list=WL) 
     
 
 
