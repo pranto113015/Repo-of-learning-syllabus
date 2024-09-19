@@ -364,6 +364,9 @@ pip freeze > requirements.txt
 
 # Django project deployment in PythonAnywhere guide :
 
+1. Create an account on Pythonanywhere [click](https://www.pythonanywhere.com/)
+2. Create a Repositorie on GitHub 
+3. Push your project to GitHub
 
 
 
