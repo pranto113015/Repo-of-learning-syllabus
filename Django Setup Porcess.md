@@ -392,7 +392,48 @@ pip freeze > requirements.txt
     pip install -r requirements.txt
     ```
 
-   
+10. Then back the console and go to the web menu and create the new web app selecting by python version manualy.
+    
+12. After completing the web app then need some changes the path look like bellow
+
+    ```bash
+
+    #Code:
+         /home/PKCSE/blog-website-django
+         /home/PKCSE/
+
+    #Virtualenv:
+        /home/PKCSE/.virtualenvs/venv
+
+    #Static files:
+       
+	 /static/      /home/PKCSE/blog-website-django/myapp/static
+	
+	 /media/    /home/PKCSE/blog-website-django/media_root/
+     
+    ```
+ 13. Then setting up WSGI file
+     ```bash
+	import os
+	import sys
+	
+	path = os.path.expanduser('~/blog-website-django')
+	
+	if path not in sys.path: sys.path.insert(0, path)
+	
+	os.environ['DJANGO_SETTINGS_MODULE'] = 'myproject.settings'
+	
+	from django.core.wsgi import get_wsgi_application
+	
+	from django.contrib.staticfiles.handlers import StaticFilesHandler 
+	application = StaticFilesHandler(get_wsgi_application())
+     ```
+14. After completing the hold thing then auto generate onn project live link this link copy then go myproject/settings.py file and copy the link look like bellow
+    ```bash
+    ALLOWED_HOSTS = ['pkcse.pythonanywhere.com']
+    ```
+15. Now it is done. `Done`
+confussion then follow the video [link](https://www.youtube.com/watch?v=2kaumOGU62A&list=WL) 
     
 
 
