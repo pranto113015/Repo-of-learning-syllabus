@@ -364,9 +364,39 @@ pip freeze > requirements.txt
 
 # Django project deployment in PythonAnywhere guide :
 
-1. Create an account on Pythonanywhere [click](https://www.pythonanywhere.com/)
-2. Create a Repositorie on GitHub 
-3. Push your project to GitHub
+1. Create an account on Pythonanywhere. [click](https://www.pythonanywhere.com/)
+2. Create a Repository on GitHub as project folder name.
+3. Push your project to GitHub without django environment folder.
+4. Create django requirements files
+5. Run the django project by following command
+   ```sh
+   python manage.py runserver
+   ```
+7. create django requirements files by following command
+   ```sh
+   python -m pip freeze > requirements.txt
+   ```
+8. Then go to the github repository and copy git clone link
+9. Then go to the Pythonanywhere website dashboard and select the menu console and write the command look like
+    ```sh
+    git clone https://github.com/pranto113015/blog-website-django.git
+    ```
+    
+    Then
+    ```sh
+    mkvirtualenv --python=/usr/bin/python3.8 venv
+    ```
+
+    Then
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+   
+    
+
+
+
 
 
 
