@@ -417,11 +417,11 @@ pip freeze > requirements.txt
 	import os
 	import sys
 	
-	path = os.path.expanduser('~/`blog-website-django`')  //bold marking place name is repository folder name
+	path = os.path.expanduser('~/blog-website-django')  //"blog-website-django" replace your git repository folder name
 	
 	if path not in sys.path: sys.path.insert(0, path)
 	
-	os.environ['DJANGO_SETTINGS_MODULE'] = '`myproject`.settings'  //bold marking place name is project folder name
+	os.environ['DJANGO_SETTINGS_MODULE'] = 'myproject.settings'  //"myproject" replace your project folder name
 	
 	from django.core.wsgi import get_wsgi_application
 	
