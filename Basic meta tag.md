@@ -2,8 +2,8 @@
 
 
 ```html
-<meta http-equiv="content-type" content="text/html" charset="UTF-8">
-<meta http-equiv="default-style" content="default.css">
+   <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+   <meta http-equiv="default-style" content="default.css">
 ```
 
 ```html
@@ -15,7 +15,7 @@
 
 - social media og meta tag
 ```html
-  <meta property="og:title" content="Portfolio of Pranto Kumar">
+   <meta property="og:title" content="Portfolio of Pranto Kumar">
    <meta property="og:type" content="article">
    <meta property="og:image" content="assets/img/home-profile.png">
 ```
