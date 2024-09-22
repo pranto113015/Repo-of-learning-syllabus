@@ -35,7 +35,7 @@
 ## Js part-4 (basic)
 - function vs method
    - Function (traditionla vs arrow) 
-   - Mathod - Number, Math, Date, Array, string methods
+   - Mathod - Number, Math, Date, Array(push,pop,shift,unshift), string methods
 - Callback and Higher order function
    - Higher order functions : map, filter, foreach, reduce, callback functions
  
