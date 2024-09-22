@@ -3,6 +3,7 @@
 - Free wordpress theme server website [link](https://wpsandbox.net/)
 - For full webpage screenshot to use google chrome extention : GoFullPage - Full Page Screen Capture [link](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?hl=en)
 
+Temporary site info
 ```sh
 WordPress site: https://s-qvkwlvskr9q2l.eu1.wpsandbox.org
 WordPress admin area: https://s-qvkwlvskr9q2l.eu1.wpsandbox.org/wp-admin/
