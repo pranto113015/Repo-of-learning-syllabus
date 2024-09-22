@@ -36,7 +36,8 @@
    - Asynchronous programming : async, await, then, catch, callback
 - Error handling
 - JSON
-- DOM and Event hendler
+- DOM and Event 
+- Project : e-commerce front-page
   
 
 
