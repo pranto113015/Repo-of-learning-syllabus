@@ -37,11 +37,12 @@
    - Function (traditionla vs arrow) 
    - Mathod - Number, Math, Date, Array(push,pop,shift,unshift), string methods
 - Callback and Higher order function
-   - Higher order functions : map, filter, foreach, reduce, callback functions
+  
  
 
 
 ## Js part-5 (intermediate)
+- Higher order functions : map, filter, foreach, reduce, callback functions
 - Error handling
 - ES6,ES7
    - var, let, const
