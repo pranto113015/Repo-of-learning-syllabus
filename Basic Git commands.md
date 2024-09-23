@@ -129,9 +129,16 @@ git commit -m "main title" -m "sub title 1" -m "sub title 2"
 keyboard shortcut with the backtick character to show or hide the terminal window `Use the Ctrl + ` 
 
 
+#### Changing git commit message after latest push  
 
-
-
+First...
+```bash
+git commit --amend -m "<write new message>"
+```
+Then...
+```bash
+git push --force origin <branch-name>
+```
 
 
 
