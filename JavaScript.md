@@ -42,15 +42,16 @@
 
 
 ## Js part-5 (intermediate)
-- Higher order functions : map, filter, foreach, reduce, callback functions
-- Error handling
+
 - ES6,ES7
+   - Template literals
    - var, let, const
    - module
    - spread operator, Rest parameters
    - Destructure
    - Higher order functions : map, filter, foreach, reduce, callback functions
-
+- Higher order functions : map, filter, foreach, reduce, callback functions
+- Error handling
 
 
 ## Js part-6 (intermediate)
