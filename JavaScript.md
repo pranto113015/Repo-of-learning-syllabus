@@ -46,9 +46,9 @@
 - ES6,ES7
    - Template literals
    - var, let, const
-   - arrow function
-   - module
-   - spread operator, Rest parameters
+   - Arrow function
+   - Module
+   - Spread operator, Rest parameters
    - Destructure
    - Higher order functions : map, filter, foreach, reduce, callback functions
 - Higher order functions : map, filter, foreach, reduce, callback functions
