@@ -42,7 +42,6 @@
 
 
 ## Js part-5 (intermediate)
-
 - ES6,ES7
    - Template literals
    - var, let, const
@@ -50,22 +49,23 @@
    - Module
    - Spread operator, Rest parameters
    - Destructure
-   - Higher order functions : map, filter, foreach, reduce, callback functions
+
+## Js part-6 (intermediate)
 - Higher order functions : map, filter, foreach, reduce, callback functions
 - Error handling
 
 
-## Js part-6 (intermediate)
+## Js part-7 (intermediate)
 - Asynchronous programming : async, await, then, catch, callback
 - Api calling
 - JSON
 
 
-## Js part-7 (intermediate)
+## Js part-8 (intermediate)
 - DOM and Event handler
 
   
-## Js part-8 (intermediate)
+## Js part-9 (intermediate)
 - Project : e-commerce front-page
   
 
