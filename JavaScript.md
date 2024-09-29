@@ -49,6 +49,7 @@
    - Module
    - Spread operator, Rest parameters
    - Destructure
+   - Default value
 
 ## Js part-6 (intermediate)
 - Higher order functions : map, filter, foreach, reduce, callback functions
