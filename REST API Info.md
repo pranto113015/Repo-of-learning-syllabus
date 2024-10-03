@@ -1,6 +1,6 @@
 # REST API Basic Information
 
-#### HTTP Verbs
+#### HTTP Verbs Methods
 - GET
 - POST
 - DELETE
