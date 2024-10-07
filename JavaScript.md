@@ -63,15 +63,21 @@
 
 
 ## Js part-8 (Intermediate Part-4)
+- localstorage
 - DOM and Event handler
 
 
   
 ## Js part-9 (Intermediate Part-5)
-- Project : e-commerce front-page
+- oop
+- A simple back app
   
+  
+## Js part-10 (Advanced)
+- Testing
 
-
+## Js part-11 (Advanced)
+- Project : E-comerce front-page
 
 
 
