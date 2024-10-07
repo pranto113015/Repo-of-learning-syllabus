@@ -37,11 +37,9 @@
 - function vs method
    - Function (traditionla vs arrow) 
    - Mathod - Number, Math, Date, Array(push,pop,shift,unshift), string methods
-- Callback and Higher order function
+
   
  
-
-
 ## Js part-5 (Intermediate Part-1)
 - ES6,ES7
    - Template literals
@@ -53,7 +51,8 @@
    - Default value
 
 ## Js part-6 (Intermediate Part-2)
-- Higher order functions : map, filter, foreach, reduce, callback functions
+- ES6
+   - Higher order functions : map(), filter(), foreach(), reduce(), some(), every(), sort(); callback functions : Asynchronous vs Synchronous, callback
 - Error handling
 
 
