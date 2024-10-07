@@ -42,7 +42,7 @@
  
 
 
-## Js part-5 (Intermediate)
+## Js part-5 (Intermediate Part-1)
 - ES6,ES7
    - Template literals
    - var, let, const
@@ -52,23 +52,23 @@
    - Destructure
    - Default value
 
-## Js part-6 (Intermediate)
+## Js part-6 (Intermediate Part-2)
 - Higher order functions : map, filter, foreach, reduce, callback functions
 - Error handling
 
 
-## Js part-7 (Intermediate)
+## Js part-7 (Intermediate Part-3)
 - Asynchronous programming : async, await, then, catch, callback
 - Api calling
 - JSON
 
 
-## Js part-8 (Intermediate)
+## Js part-8 (Intermediate Part-4)
 - DOM and Event handler
 
 
   
-## Js part-9 (Intermediate)
+## Js part-9 (Intermediate Part-5)
 - Project : e-commerce front-page
   
 
