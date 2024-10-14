@@ -50,11 +50,13 @@
    - Destructure
    - Default value
 
+
 ## Js part-6 (Intermediate Part-2)
 - ES6
    - Higher order functions : map(), filter(), foreach(), reduce(), some(), every(), sort();
    - callback functions : Asynchronous vs Synchronous, callback
 - Error handling
+
 
 
 ## Js part-7 (Intermediate Part-3)
