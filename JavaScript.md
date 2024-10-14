@@ -60,6 +60,7 @@
 
 
 ## Js part-7 (Intermediate Part-3)
+- Asynchronous va Synchronous
 - Asynchronous programming : async, await, then, catch, callback
 - Api calling
 - JSON
