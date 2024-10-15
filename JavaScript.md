@@ -54,6 +54,15 @@
 ## Js part-6 (Intermediate Part-2)
 - ES6
    - Higher order functions : foreach(), map(), filter(), reduce(), some(), every(), sort()
+     
+     ```javascript
+      // higher order build in function : forEach()
+      const persons = ['Pranto', 'Jamal', 'Rahim', 'Topon'];
+      
+      persons.forEach((persons, i) => {
+          console.log(`${i} : ${persons}`);
+      })
+     ```
    - Exception handling
    - callback functions : Asynchronous vs Synchronous, callback
 - Error handling
