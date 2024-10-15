@@ -53,7 +53,8 @@
 
 ## Js part-6 (Intermediate Part-2)
 - ES6
-   - Higher order functions : map(), filter(), foreach(), reduce(), some(), every(), sort();
+   - Higher order functions : foreach(), map(), filter(), reduce(), some(), every(), sort()
+   - Exception handling
    - callback functions : Asynchronous vs Synchronous, callback
 - Error handling
 
