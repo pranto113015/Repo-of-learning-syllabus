@@ -3,7 +3,6 @@
 
 #### Demo repository code by default project
 
-
 …or create a new repository on the command line
 ```sh
 echo "# Demo-Repository-Pro-2k24" >> README.md
