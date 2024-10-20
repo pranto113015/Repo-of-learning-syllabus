@@ -1,6 +1,5 @@
 # Basic Git commands
 
-
 #### Demo repository code by default project
 
 …or create a new repository on the command line
