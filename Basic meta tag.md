@@ -1,7 +1,6 @@
 # Basic HTML Meta Tag for explore website
 
 
-
 ```html
    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
    <meta http-equiv="default-style" content="default.css">
