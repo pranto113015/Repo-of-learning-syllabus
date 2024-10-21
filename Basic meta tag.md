@@ -25,7 +25,6 @@
    <meta name="twitter:title" content="Portfolio of Pranto">
 ```
 
-
 ```html
    <meta http-equiv="cache-control" content="no-cache">
 ```
