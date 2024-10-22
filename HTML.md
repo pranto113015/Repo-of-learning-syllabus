@@ -6,6 +6,7 @@
    - http request and response
    - web design fundamental - HTML, CSS, JS
 
+
 2. What is HTML? Why HTML?
 3. History of HTML
 4. Advantages of HTML
