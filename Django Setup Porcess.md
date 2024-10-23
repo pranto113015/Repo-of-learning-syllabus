@@ -21,6 +21,7 @@
 - Git (optional)
 
 
+
 # Setting up a virtual environment Django setup steps :
 
 - To create a virtual environment for your project, open a new command prompt, navigate to the folder where you want to create your project and then enter the following command :
