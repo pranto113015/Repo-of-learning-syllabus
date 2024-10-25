@@ -75,6 +75,11 @@
       console.log(squaredNumber);
      ```
 
+     ```javascript
+     // higher order build in function : filter()
+     
+     ```
+
    - Exception handling
    - callback functions : Asynchronous vs Synchronous, callback
 - Error handling
