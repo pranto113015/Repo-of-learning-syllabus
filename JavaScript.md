@@ -65,6 +65,16 @@
           console.log(`${i} : ${persons}`);
       })
      ```
+     
+     ```javascript
+     // higher order build in function : map()
+      const numbers = [1,2,3,4,5];
+      const squaredNumber = numbers.map((number) => {
+          return number * number;
+      })
+      console.log(squaredNumber);
+     ```
+
    - Exception handling
    - callback functions : Asynchronous vs Synchronous, callback
 - Error handling
