@@ -77,7 +77,14 @@
 
      ```javascript
      // higher order build in function : filter()
-     
+       const products = [
+      { id: 1, name: 'pranto kumar', price: 1500 },
+      { id: 2, name: 'Lal kumar', price: 3000 },
+      { id: 3, name: 'Gali hasan', price: 7000 },
+       ]
+      const filteredproducts = products.filter((product) => product.price >= 1500 && 
+     product.price <= 3000);
+     console.log(filteredproducts);
      ```
 
    - Exception handling
