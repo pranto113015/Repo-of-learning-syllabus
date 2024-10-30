@@ -1,10 +1,14 @@
 # Front-end Development with Govt. Project EDGE,ICT Division & BCC Learning Syllabus
 
 - Baic Internet
-  - HTTP
+  - HTTP,DNS
   - Domain
-  - Hosting
+  - Shared Hosting
+  - Dedicated Hosting
   - Server
 
 - HTML 
-    - html 
+  - Element
+    - Blocked & Inline
+  - Heading Tag
+  - 
