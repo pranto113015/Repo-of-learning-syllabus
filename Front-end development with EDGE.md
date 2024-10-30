@@ -10,5 +10,8 @@
 - HTML 
   - Element
     - Blocked & Inline
-  - Heading Tag
-  - 
+  - Heading Tag (Important this tag for SEO)
+  - File Path
+    - Relative Path
+    - Absoulate Path
+  - Page Link Up
