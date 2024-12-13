@@ -16,11 +16,39 @@
     - Relative File Paths (A relative file path points to a file relative to the current page.It is best practice to use relative file paths (if possible).)
     - Absoulate File Paths (An absolute file path is the full URL to a file)
   - Page Link Up
+    - Absolute URLs (absolute URL (a full web address) in the href attribute.)
+    - Relative URLs (relative URL (without the "https://www" part))
     
-- CSS
+- CSS (Date:01.11.24)
+   - Inline CSS
+   - Iternal CSS
+   - External CSS
    - Table
+    - Colspan
+    - Rowspan
+    - Border
+    - width
+    - height
+    - padding
+    - spacing
+   
    - Form
+    - input element
+    - 
 
 - JS
    - alart()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
