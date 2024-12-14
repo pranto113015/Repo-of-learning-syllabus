@@ -44,7 +44,7 @@
    - css unit 
    - bootstrap v5.3.3
 
-- JS
+- JavaScript 
    - output method
       - alart()
    - selector
@@ -55,7 +55,7 @@
    - Traditional function approach
    - object
    - object defination
-   - strig
+   - string
    - Js string methods
    - closour or JavaScript Anonymous Functions
    - Dom Manupulation
