@@ -45,7 +45,22 @@
    - bootstrap v5.3.3
 
 - JS
-   - alart()
+   - output method
+      - alart()
+   - selector
+   - Js Fiunction
+   - String Interpolation
+   - Function definaion
+   - Arrow function approach
+   - Traditional function approach
+   - object
+   - object defination
+   - strig
+   - Js string methods
+   - closour or JavaScript Anonymous Functions
+   - Dom Manupulation
+   - Array
+   - JS Array methods
 
 
 
