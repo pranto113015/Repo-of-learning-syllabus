@@ -124,8 +124,33 @@
 - Themes extension: Dark vision < Fleety < Andromeda < Framer dark < Cyberpunk < pro hacker theme < Github theme
 
 
+## 10. Currently Use VSCode Extension
 
-
+- vscode-pdf
+- vscode-icons
+- Tailwind CSS IntelliSense
+- Reactjs code snippets
+- Python
+- Prettier - Code formatter
+- Path Intellisense
+- npm Intellisense
+- Live Server
+- Live Preview
+- IntelliSense for CSS class names in HTML
+- Image preview
+- HTML to CSS autocompletion
+- HTML End Tag Labels
+- GitHub Copilot
+- GitHub Copilot Chat
+- ESLint
+- ES7+ React/Redux/React-Native snippets
+- ES7 React/Redux/GraphQL/React-Native snippets
+- CSS Flexbox Cheatsheet
+- CodeSnap
+- Auto Rename Tag
+- Auto Import - ES6, TS, JSX, TSX
+- Auto Close Tag
+  
 
 
 
